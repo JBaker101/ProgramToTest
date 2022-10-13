@@ -28,13 +28,10 @@ class MainClass
                 }
                 else
                 {
-                    //int max = number.AsQueryable().Max();
                     int max = Max(number);
 
-                    //int min = number.AsQueryable().Min();
                     int min = Min(number);
 
-                    //double average = number.AsQueryable().Average();
                     double average = Average(number);
 
                     int mode = Mode(number);
